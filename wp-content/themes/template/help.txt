@@ -1,0 +1,15 @@
+Limit number of Listings found in: /plugins/cottagerentalgetaways/cottagerentalgetaways.php
+
+
+line = 177 	$Overview = '';
+		$PS = 0;
+		$PE = 20;
+
+
+Changed who can access the Real Estate plugin in admin section. 
+
+file: wp-content/plugins/fs-real-estate-plugin/difine.php
+
+Line
+17 -	$FSREPAdminPermissions = 'editor';
+18 -	$FSREPMemberPermissions = 'subscriber';
